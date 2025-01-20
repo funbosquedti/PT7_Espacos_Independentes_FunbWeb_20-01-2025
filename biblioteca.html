@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funbosque</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- versão de desenvolvimento, inclui avisos úteis no console  -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <header class="header">
+    </header>
+        <main class="main">
+            <section class="fundo">
+                <div class="logo-container" style="text-align: center;">
+                    <img src="imagens/logo-funbosque.png" alt="Logo Funbosque" width="150" height="200">
+                </div>
+            </section>
+            <header class="header"></header>
+            <div class="text-center">
+                <div id="globais">
+                    <h1>Biblioteca</h1>
+                    <h2>{{ instrucoes_3}}</h2>
+                    <hr class="custom-hr">                 
+                </div>            
+            </div>
+
+            <section class="content">
+                <a href="https://nuvemfunbosque.belem.pa.gov.br/index.php/apps/appointments/pub/AclzN830vY898CZ3/form" class="card">
+                    <img src="imagens/biblioteca.png" alt="iblioteca">
+                    <div class="container">
+                        <h2><b>Formulário de Agendamento</b></h2>
+                    </div>
+                </a>
+                <a href="https://nuvemfunbosque.belem.pa.gov.br/index.php/apps/calendar/p/rgX3YdR2tjt82btc/dayGridMonth/now" class="card">
+                    <img src="imagens/calendario.jpg" alt="Acompanhe">
+                    <div class="container">
+                        <h2><b>Acompanhe seu pedido</b></h2>
+                    </div>
+                </a>
+            </section>  
+            <hr class="custom-hr">
+            <div class="container_text">
+                <table class="text-align">
+                    <tr>
+                        <td><img class="imagem" src="imagens/biblioteca.png"></td>
+                        <dl>
+                            <dt>A biblioteca da Fundação Escola Bosque "Professor Eidorfe Moreira" (FUNBOSQUE) é um espaço dedicado<br>
+                            ao conhecimento e à leitura, localizado na Ilha de Caratateua, em Belém, Pará. A biblioteca é um recurso<br>
+                            essencial para os alunos, oferecendo uma vasta coleção de livros, revistas e materiais educativos que<br>
+                            incentivam a leitura e o aprendizado contínuo.<br><br>
+            
+                            A Fundação Escola Bosque foi criada a partir da Lei nº 7.747, de 2 de janeiro de 1995, durante a gestão<br>
+                            do então prefeito Hélio da Mota Gueiros. A fundação foi inaugurada oficialmente em 26 de abril de 1996.<br><br>
+            
+                            A ideia da FUNBOSQUE foi concebida pelo sociólogo, poeta ambientalista e educador **Mariano Klautau**,<br>
+                            que dedicou parte de sua vida ao estudo e desenvolvimento das ilhas de Belém. A instituição tem como<br>
+                            objetivo principal contribuir para a formação de uma nova ética social e ambiental, promovendo a educação<br>
+                            ambiental e a preservação do meio ambiente.<br><br>
+            
+                            
+                        </dl>
+                    </tr>
+                </table>
+            </div>
+            <div style="height: 600px;"></div> <!-- ajuste a altura conforme necessário -->
+        </main>
+    <script src="script.js"></script>
+    <footer class="footer">
+        <p>&copy; 2024 Departamento de Tecnologia da Informação (DTI) - Funbosque<a href = "#">Sobre</a></p>
+    </footer>
+</body>
+</html>
